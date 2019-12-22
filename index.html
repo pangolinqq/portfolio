@@ -16,42 +16,50 @@
     <header class="header">
         <nav class="header__nav">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-auto">
-                        <a href="" class="logo">my works</a>
+                        <a href="" class="logo"><span class="logo__letter-y">my</span> works</a>
                     </div>
                     <div class="col-auto">
                         <ul class="header__menu">
                             <li><a href="" class="header__menu-link">История</a></li>
                             <li><a href="" class="header__menu-link">Работы</a></li>
-                            <li><a href="" class="header__menu-link">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary header__menu-link" type="button"
-                                            id="header__menu-drop" data-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="false">
-                                            Кнопка выпадающего списка
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="header__menu-drop">
-                                            <a class="dropdown-item" href="#">+998903177250</a>
-                                            <a class="dropdown-item" href="#">sinmiracl'a@gmail.com</a>
-                                        </div>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="header__menu-link" href="#" role="button" id="header__drop-link"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Контакты
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="header__drop-link">
+                                        <a class="dropdown-item dropdown-item_bb-dark" href="tel:998901234567">+ 998 90
+                                            123 45 67</a>
+                                        <a class="dropdown-item" href="mailto:mymail@mail.my">mymail@mail.my</a>
                                     </div>
-                                </a></li>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="header__content">
-            <h1 class="header__title">моё портфолио</h1>
-            <p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in culpa qui officia deserunt mollit anim id est.</p>
+            <div class="container">
+                <h1 class="header__title">моё портфолио</h1>
+                <p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt
+                    in culpa qui officia deserunt mollit anim id est.</p>
+            </div>
+
         </div>
     </header>
-
+    <script src="js/jq.js"></script>
+    <script src="js/poper.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
